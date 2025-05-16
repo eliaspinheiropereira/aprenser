@@ -1,0 +1,29 @@
+.contatos{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contatos__titulo{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.contatos img{
+    width: 75%;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.contatos__endereco{
+    width: 75%;
+    display: flex;
+    justify-content: right;
+}
+
+.contatos__endereco address{
+    text-align: right;
+    line-height: 1.2rem;
+}

@@ -1,0 +1,27 @@
+.escola{
+    height: 100vh;
+    color: var(--branco);
+    background-image: url(../img/nossa-escola.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 55%;
+    background-color: var(--fundo-escola);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+
+.escola__titulo{
+    width: 20%;
+    padding-right: 21.5rem;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.escola__descricao{
+    width: 30%;
+    padding-right: 9.5rem;
+    line-height: 2rem;
+}
